@@ -13,6 +13,8 @@ body {
 
 ul {
     list-style: none;
+    padding: 0;
+    /* margin: 0; */
 }
 
 button {
@@ -23,9 +25,9 @@ button {
 
 .container {
     width: 1200px; 
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
 }
 
 h1,
@@ -92,15 +94,15 @@ color: #000000;
 .navigation-list {
     display: flex;
     align-items: center;
-    padding-left: 0;
 }
 
 
 .contacts {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    /* margin-left: auto; */
     justify-content: flex-end;
+    width: 1200px;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -151,13 +153,14 @@ color: #000000;
     color: #ffffff;
     height: 600px;
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
     }
 
 .hero .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 200px 452px 280px; 
 }
 
 
@@ -202,7 +205,6 @@ color: #000000;
 .preference {
     display: flex;
     justify-content: space-between;
-    padding-left: 0; 
 }
 
 .preference-item:not(:last-child) {
@@ -236,7 +238,7 @@ color: #000000;
 }
 .section-list {
     display: flex;
-    padding-left: 0;
+    justify-content: space-between;
 }
 
 .section-list-item:not(:last-child) {
@@ -259,13 +261,11 @@ color: #000000;
  /* our-team */
 .our-team .container {
     display: block;
-    padding-top: 95px;
-    padding-bottom: 95px;
 }
 
 .team-list {
     display: flex;
-    padding-left: 0;
+    justify-content: space-between;
 }
 
 .team-item-content {
@@ -282,6 +282,8 @@ color: #000000;
 
  .our-team {
     background: #F5F4FA;
+    padding-top: 95px;
+    padding-bottom: 95px;
  }
 
  .team-item {
@@ -312,8 +314,6 @@ color: #000000;
 /* footer */
 .contact .container {
     display: block;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .contact-footer-list {
@@ -323,6 +323,8 @@ color: #000000;
 
 .contact {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .contact-footer-list-item:not(:last-child) {
     margin-bottom: 9px;
@@ -360,7 +362,6 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items:flex-start;
-    padding-left: 0;
     height: 54px;
     margin-bottom: 34px;
 }
@@ -368,7 +369,6 @@ text-decoration: none;
 .filter .container {
     margin-top: 94px;
     margin-bottom: 94px;
-    padding-top: 0;
 }
 
 .filter-list {
@@ -405,7 +405,6 @@ text-decoration: none;
 .projects {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
     margin: -15px;
 }
 
