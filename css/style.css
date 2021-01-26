@@ -100,7 +100,6 @@ color: #000000;
 .contacts {
     display: flex;
     align-items: center;
-    /* margin-left: auto; */
     justify-content: flex-end;
     width: 1200px;
 }
@@ -198,9 +197,10 @@ color: #000000;
 /* benefits */
 
 .benefits {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+
 
 .preference {
     display: flex;
@@ -230,10 +230,12 @@ color: #000000;
 
 /* abou us */
 
+.about {
+    padding-bottom: 94px;
+}
+
 .about .container {
     display: block;
-    margin-top: 94px;
-    margin-bottom: 94px;
     align-items: center;
 }
 .section-list {
@@ -358,17 +360,17 @@ text-decoration: none;
     color: #2196F3;
 }
 
+.filter {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .filter-content {
     display: flex;
     justify-content: center;
     align-items:flex-start;
     height: 54px;
     margin-bottom: 34px;
-}
-
-.filter .container {
-    margin-top: 94px;
-    margin-bottom: 94px;
 }
 
 .filter-list {
@@ -401,6 +403,7 @@ text-decoration: none;
 
 
 /* portfolio-projects */
+
 
 .projects {
     display: flex;
